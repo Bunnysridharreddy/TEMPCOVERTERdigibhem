@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://t4.ftcdn.net/jpg/02/66/38/15/360_F_266381525_alVrbw15u5EjhIpoqqa1eI5ghSf7hpz7.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    margin: 0;
+}
+
+.converter-container {
+    text-align: center;
+    background-color: rgba(45, 45, 45, 0.8); /* Semi-transparent dark background for better readability */
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+input, select, button {
+    width: 80%;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 2px solid #444444;
+}
+
+input {
+    background-color: #3b3b3b;
+    color: #ffffff;
+}
+
+select {
+    background-color: #3b3b3b;
+    color: #ffffff;
+}
+
+button {
+    background-color: #444444;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #666666;
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 26px;
+    color: White;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
